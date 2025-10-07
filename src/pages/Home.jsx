@@ -3,6 +3,7 @@ import Portada from "../components/sections/Portada";
 import Informacion from "../components/sections/Informacion";
 import Galeria from "../components/sections/Galeria";
 import Origen from "../components/sections/Origen";
+import VideoDescription from "../components/sections/VideoDescription";
 
 const Home = () => {
   return (
@@ -15,8 +16,11 @@ const Home = () => {
        <Galeria></Galeria>
       </section>
       <section>
-        <Origen></Origen>
+        <VideoDescription></VideoDescription>
       </section>
+      {/* <section>
+        <Origen></Origen>
+      </section> */}
     </div>
   );
 };
