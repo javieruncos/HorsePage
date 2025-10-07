@@ -1,0 +1,11 @@
+.App{
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.main{
+    flex-grow: 1;
+}
