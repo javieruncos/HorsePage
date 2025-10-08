@@ -116,7 +116,7 @@ const Origen = () => {
                 <p className="font-semibold text-[#ff7300]">Silver Rose</p>
                 <p className="text-sm">Abuela paterna</p>
               </div>
-              <div className="bg-[#1a1a1a] border border-gray-700 rounded-lg py-4">
+              <div className="bg-[#1a1a1a] border border-gray-200 rounded-lg py-4">
                 <p className="font-semibold text-[#ff7300]">Night Runner</p>
                 <p className="text-sm">Abuelo materno</p>
               </div>
@@ -146,10 +146,10 @@ const Origen = () => {
 
             {/* Generación 1 - Animal principal */}
             <div className="bg-[#ff7300] rounded-lg py-6 px-10 shadow-lg w-fit">
-              <h4 className="text-2xl font-bold">Romancera</h4>
-              <p className="text-sm text-black font-semibold">
+              <h4 className="text-2xl font-bold">ALTANERA</h4>
+              {/* <p className="text-sm text-black font-semibold">
                 Ejemplar principal
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

@@ -21,7 +21,7 @@ const Portada = () => {
               <p className="text-1xl text-[#3e3f43] font-bold">ROMANCERA</p>
             </div>
             <h1 className="text-4xl text-white font-bold my-5">
-              ROMANCERA <span className="text-[#ff7300]">HORSE</span>
+              ALTANERA <span className="text-[#ff7300]">DSB</span>
             </h1>
             <div className="flex mt-15 px-2 gap-10">
               <div>
@@ -54,14 +54,6 @@ const Portada = () => {
           <div className="px-30  relative ">
             <div className="w-[300px] h-full  text-amber-50 flex items-center justify-start">
               <div className="relative pt-50 ">
-                {/* <hr className="border-1 w-[300px] border-[#3e3f43] my-3" />
-                <p className="text-[#666769]">
-                  Majestuoso y equilibrado, este caballo destaca por su
-                  elegancia, potencia y temperamento noble. Su conformación
-                  armoniosa y su andar firme reflejan años de cuidado y
-                  entrenamiento. Con una genética excepcional y un carácter
-                  dócil, es ideal para la exhibición.
-                </p> */}
                 <img src={sello} alt="" />
               </div>
             </div>

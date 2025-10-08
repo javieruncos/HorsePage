@@ -16,11 +16,11 @@ const Home = () => {
        <Galeria></Galeria>
       </section>
       <section>
+        <Origen></Origen>
+      </section>
+      <section>
         <VideoDescription></VideoDescription>
       </section>
-      {/* <section>
-        <Origen></Origen>
-      </section> */}
     </div>
   );
 };
