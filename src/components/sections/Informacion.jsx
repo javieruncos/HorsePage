@@ -3,28 +3,34 @@ import horse from "../../assets/img/horse.png";
 const Informacion = () => {
   return (
     <div className=" text-white container px-5 mx-auto">
-      <h2 className="text-4xl font-semibold mb-4">
-        Caracteristicas Destacadas
-      </h2>
-      <div className="">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          fugit omnis culpa sint laborum, eligendi deserunt ex rerum, soluta
-          corrupti impedit est adipisci commodi facilis ipsam facere?
-          Consequatur odio numquam eveniet minima minus ipsum nulla laborum
-          corrupti impedit explicabo. Facere, ducimus? Id quisquam aperiam cum?
-          Impedit quasi rerum sint alias? Quidem vitae consequuntur porro
-          voluptas placeat fuga, maxime doloremque iure delectus ducimus fugiat
-          aliquam unde eos quod libero totam error illo veritatis provident ipsa
-          molestias. Natus sequi nihil eum. Deleniti, vero explicabo porro ipsam
-          adipisci cum. Tenetur quod sint aperiam? Id eius non similique quia
-          nam at, itaque a ccusamus ducimus, dolorem tempora molestias
-          laudantium perspiciatis unde commodi adipisci sed corporis veritatis.
-          Ipsum, numquam at fugiat veniam pariatur incidunt vero cupiditate
-          nesciunt recusandae labore est temporibus hic aperiam dignissimos
-          illum itaque?
-        </p>
+      <div className="grid grid-cols-2">
+        <div>
+          <h2 className="text-4xl font-semibold mb-4">
+            Caracteristicas Destacadas
+          </h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            fugit omnis culpa sint laborum, eligendi deserunt ex rerum, soluta
+            corrupti impedit est adipisci commodi facilis ipsam facere?
+            Consequatur odio numquam eveniet minima minus ipsum nulla laborum
+            corrupti impedit explicabo. Facere, ducimus? Id quisquam aperiam
+            cum? Impedit quasi rerum sint alias? Quidem vitae consequuntur porro
+            voluptas placeat fuga, maxime doloremque iure delectus ducimus
+            fugiat aliquam unde eos quod libero totam error illo veritatis
+            provident ipsa molestias. Natus sequi nihil eum. Deleniti, vero
+            explicabo porro ipsam adipisci cum. Tenetur quod sint aperiam? Id
+            eius non similique quia nam at, itaque a ccusamus ducimus, dolorem
+            tempora molestias laudantium perspiciatis unde commodi adipisci sed
+            corporis veritatis. Ipsum, numquam at fugiat veniam pariatur
+            incidunt vero cupiditate nesciunt recusandae labore est temporibus
+            hic aperiam dignissimos illum itaque?
+          </p>
+        </div>
+        <div>
+          <img src={horse} alt="" className="w-full h-full" />
+        </div>
       </div>
+      <div className=""></div>
       <div className="my-8 grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Columna 1 */}
         <div className=" rounded-xl shadow-md p-6">
