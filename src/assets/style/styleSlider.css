@@ -1,0 +1,23 @@
+/* ==== Personalización de los botones ==== */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ff7300 !important; /* cambia el color de las flechas */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  transform: scale(1.2);
+  color: #ffffff !important;
+}
+
+/* ==== Personalización de los puntitos (pagination bullets) ==== */
+.swiper-pagination-bullet {
+  background: #ffffff !important; /* color inactivo */
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff7300 !important; /* color activo */
+  opacity: 1;
+}
