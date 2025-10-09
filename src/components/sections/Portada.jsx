@@ -11,7 +11,7 @@ const Portada = () => {
         className="w-full h-[500px] sm:h-[600px] md:h-[660px] object-contain md:object-cover object-center bg-black "
       />
 
-      <div className="absolute top-0 left-0 w-full h-full bg-black/35 md:bg-black/40 flex items-center">
+      <div className="absolute top-0 left-0 w-full h-full bg-black/15 md:bg-black/40 flex items-center">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start w-full h-full relative">
           {/* COLUMNA DE TEXTO */}
           <motion.div
