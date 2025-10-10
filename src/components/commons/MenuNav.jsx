@@ -30,20 +30,11 @@ const MenuNav = () => {
               </li>
               <li>
                 <a href="/contacto" className="hover:text-white">
-                  Pedigree
+                 videos
                 </a>
               </li>
             </ul>
           </div>
-          {/* <div className="hidden md:flex items-center gap-4 text-gray-300">
-            <a
-              href="/registro"
-              className="text-white px-4 py-2 bg-gray-600 rounded hover:bg-black hover:cursor-pointer
-                     hover:text-white hover:transition-ease-in-out duration-400"
-            >
-              Acceder
-            </a>
-          </div> */}
           {/* Botón hamburguesa */}
           <button className="md:hidden" onClick={() => setOpen(!open)}>
             {open ? (
@@ -99,12 +90,12 @@ const MenuNav = () => {
               </li>
               <li>
                 <a href="#" className="hover:text-gray-400">
-                  Servicios
+                 Caracteristicas
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-gray-400">
-                  Contacto
+                 Videos
                 </a>
               </li>
               
