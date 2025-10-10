@@ -110,16 +110,16 @@ const Portada = () => {
           >
             <div className="px-4 sm:px-6 md:px-13 py-4 md:py-30 text-center md:text-left">
               {/* Breadcrumb */}
-              <div className="flex flex-wrap justify-center md:justify-start gap-2 sm:gap-3 text-xs sm:text-sm md:text-base">
+              <div className="flex flex-wrap justify-center md:justify-start gap-2 sm:gap-3 text-xs sm:text-sm md:text-base mt-5">
                 <p className="text-[#606164] font-bold">DSB</p>
                 <i className="bi bi-chevron-right text-[#ff7300]"></i>
-                <p className="text-[#3e3f43] font-bold">PERUANA</p>
+                <p className="text-[#606164] font-bold">PERUANA</p>
                 <i className="bi bi-chevron-right text-[#ff7300]"></i>
-                <p className="text-[#3e3f43] font-bold">ALTANERA</p>
+                <p className="text-[#606164] font-bold">ALTANERA</p>
               </div>
 
               {/* Título */}
-              <h1 className="text-3xl sm:text-4xl text-white font-bold my-5">
+              <h1 className="text-3xl sm:text-4xl text-white font-bold my-5  md:mt-0">
                 ALTANERA <span className="text-[#ff7300]">DSB</span>
               </h1>
 

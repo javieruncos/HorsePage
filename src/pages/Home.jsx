@@ -18,7 +18,6 @@ const Home = () => {
       <section>
         <VideoDescription></VideoDescription>
       </section>
-      
     </div>
   );
 };

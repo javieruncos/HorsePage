@@ -69,7 +69,7 @@ const Galeria = () => {
             <SwiperSlide>
               <div className="h-[420px] sm:h-[500px] rounded-xl overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg"
+                  src="https://images.pexels.com/photos/53114/horse-arabs-stallion-ride-53114.jpeg"
                   alt="Caballo 4"
                   className="h-full w-full object-cover"
                 />
