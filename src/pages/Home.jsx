@@ -9,18 +9,16 @@ const Home = () => {
   return (
     <div className="main">
       <Portada></Portada>
-      <section className="my-25">
+      <section>
         <Informacion></Informacion>
       </section>
-      <section>
+      <section className="my-30">
        <Galeria></Galeria>
-      </section>
-      <section>
-        <Origen></Origen>
       </section>
       <section>
         <VideoDescription></VideoDescription>
       </section>
+      
     </div>
   );
 };

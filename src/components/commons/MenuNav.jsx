@@ -13,8 +13,8 @@ const MenuNav = () => {
         <div className="container mx-auto flex gap-8 items-center p-4">
           <div className="flex-1 flex items-center gap-8">
             {/* Logo */}
-            <a href="#" className="text-xl pb-1 font-bold">
-              DSb
+            <a href="#" className="text-xl pb-1 font-bold text-amber-600">
+              DSB
             </a>
             {/* Menú desktop */}
             <ul className="hidden md:flex ms-auto gap-6">
